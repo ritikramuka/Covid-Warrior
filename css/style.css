@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+}
+
+.img1{
+    background: url(../img/covid19.jpg);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img2{
+    background: url(../img/doctor.jpg);
+    height: 60%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img3{
+    background: url(../img/police.jpg);
+    height: 60%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img4{
+    background: url(../img/bg2.jpg);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading, .ending{
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    font-size:62px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Bree Serif', serif;
+}
+
+.b-border{
+    background-color: black;
+    border-radius: 13px;
+    border-style: groove;
+}
+
+.sec{
+    text-align: center;
+}
+
+.sec h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    font-family: 'Bree Serif', serif;
+}
+
+.sec p{
+    color: rgba(14, 13, 13, 0.966); 
+    margin: 16px 40px;
+    margin-bottom: 32.2px;
+}
+
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size:60px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    font-family: 'Bree Serif', serif;
+    text-decoration: underline solid black;
+}
+
+.img4 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    text-transform: uppercase;
+}
+
+footer div{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 1rem;
+    font-weight: 100;
+}
